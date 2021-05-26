@@ -1,0 +1,25 @@
+form {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.todo-input{
+    flex: 1;
+    border: none;
+    padding: 8px;
+    font-size: 24px;
+}
+.todo-input:focus{
+    outline: none;
+}
+.todo-button{
+    background-color: #83a4d4;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+.filter-todos{
+    border: none;
+    padding: 14px;
+    margin: 0 8px;
+}

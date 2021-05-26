@@ -1,0 +1,32 @@
+.completed{
+    text-decoration: line-through;
+    color: gainsboro;
+}
+.todo{
+    display: flex;
+    /* padding: 8px; */
+    margin: 8px;
+    justify-content: center;
+    /* border: 1px solid black; */
+    background: white;
+}
+
+.todo li {
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+    line-height: 63px;
+    /* border: 1px solid black; */
+}
+.todo > .button-check{
+    border: none;
+    padding: 16px;
+    background-color: #a4ebf3;
+    cursor: pointer;
+}
+.todo > .button-trash{
+    border: none;
+    padding: 16px;
+    background: #aaaaaa;
+    cursor: pointer;
+}
